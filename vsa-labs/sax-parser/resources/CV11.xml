@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<receptar>
+  <recept>
+      
+    <nazov>omeleta</nazov>
+    <polozka>
+      <nazov>vajce</nazov>
+      <mnozstvo jednotka="ks">5</mnozstvo>
+    </polozka>    
+    
+    <polozka>
+      <mnozstvo jednotka="dl">1</mnozstvo>
+      <nazov>mlieko</nazov>
+    </polozka>    
+    
+    <polozka>
+      <nazov>muka</nazov>
+      <mnozstvo jednotka="kg">0.5</mnozstvo>
+    </polozka>    
+    
+    <polozka>
+      <nazov>hrasok</nazov>
+      <mnozstvo jednotka="kg">0.25</mnozstvo>
+    </polozka>    
+    
+    <popis></popis>
+  </recept>
+  
+  <recept>
+    <nazov>prazenica</nazov>
+    <polozka>
+      <nazov>vajce</nazov>
+      <mnozstvo jednotka="ks">5</mnozstvo>
+    </polozka>    
+    <polozka>
+      <nazov>cibula</nazov>
+      <mnozstvo jednotka="kg">0.5</mnozstvo>
+    </polozka>    
+  </recept>
+  <recept>
+    <nazov>gulas</nazov>
+    <polozka>
+      <nazov>hovadzie maso</nazov>
+      <mnozstvo jednotka="kg">1</mnozstvo>
+    </polozka>    
+    <polozka>
+      <nazov>cibula</nazov>
+      <mnozstvo jednotka="kg">2</mnozstvo>
+    </polozka>    
+    <polozka>
+      <nazov>zemiaky</nazov>
+      <mnozstvo jednotka="kg">0.5</mnozstvo>
+    </polozka>    
+    <polozka>
+      <nazov>mrkva</nazov>
+      <mnozstvo jednotka="kg">0.5</mnozstvo>
+    </polozka>    
+    <polozka>
+      <nazov>majoranka</nazov>
+      <mnozstvo jednotka="dkg">0.5</mnozstvo>
+    </polozka>    
+  </recept>
+  <recept>
+    <polozka>
+      <nazov>vajce</nazov>
+      <mnozstvo jednotka="ks">2</mnozstvo>
+    </polozka>    
+    <polozka>
+      <nazov>skvarky</nazov>
+      <mnozstvo jednotka="dkg">20</mnozstvo>
+    </polozka>    
+    <polozka>
+      <nazov>muka</nazov>
+      <mnozstvo jednotka="kg">1</mnozstvo>
+    </polozka>    
+    <popis></popis>
+    <nazov>pagace</nazov>
+  </recept>
+</receptar>
