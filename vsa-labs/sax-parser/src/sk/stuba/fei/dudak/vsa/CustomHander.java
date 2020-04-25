@@ -51,7 +51,7 @@ public class CustomHander extends DefaultHandler {
             this.currentItem = new Item();
         }
         if ("mnozstvo".equals(qName)) {
-            int attLen = attributes.getLength(); 
+            int attLen = attributes.getLength();
             for (int i = 0; i < attLen; i++) {
                 String attName = attributes.getQName(i);
                 if ("jednotka".equals(attName)) {

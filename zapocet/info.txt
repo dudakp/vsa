@@ -1,0 +1,7 @@
+Komentár:
+
+OS:Linux Mint 19.1 Cinnamon
+ 
+IDE: NetBeans8.1
+
+Prehliadač: Google Chrome

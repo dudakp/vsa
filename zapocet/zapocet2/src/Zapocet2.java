@@ -1,0 +1,2 @@
+public class Zapocet2 {
+}

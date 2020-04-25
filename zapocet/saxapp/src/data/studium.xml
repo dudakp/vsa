@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--názvy prednášok v letnom semestri a mená ich prednášajúcich-->
+<studium>
+    <zameranie>
+        <nazov>MASUS</nazov>
+        <predmet rocnik="Bc-1">
+            <nazov>Programovanie</nazov>
+            <prednasajuci> 
+                <email>donald@stuba.sk</email>
+                <meno>Donald Knuth</meno>
+            </prednasajuci>
+        </predmet>
+        
+        <predmet rocnik="Bc-1">
+            <nazov>reprakl</nazov>
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>
+        </predmet>
+               
+        <predmet rocnik="Bc-1">
+            <nazov>Monitor</nazov>
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>
+        </predmet>
+        <predmet rocnik="Bc-1">
+            <nazov>Monitor</nazov>
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>
+        </predmet>
+        
+        <predmet rocnik="Bc-1">
+            <nazov>Monitor</nazov>
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>
+        </predmet>
+        
+        <predmet rocnik="Bc-1">
+            <nazov>Monitor</nazov>
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>
+        </predmet>
+        
+        <predmet rocnik="Bc-1">
+            <nazov>Monitor</nazov>
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>
+        </predmet>
+        
+        <predmet rocnik="Bc-1">
+            <nazov>Monitor</nazov>
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>
+        </predmet>
+        
+        <predmet rocnik="Bc-1">
+            <nazov>Monitor</nazov>
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>
+        </predmet>
+        
+        
+        <predmet rocnik="Bc-1" >
+            <nazov>Statistika</nazov>
+            <kod>Stat</kod>
+        </predmet>
+    </zameranie> 
+      
+    <zameranie>
+        
+        <predmet rocnik="Bc-1">
+            <nazov>Kokot</nazov>      
+            <prednasajuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </prednasajuci>  
+        </predmet>
+        
+        <predmet>
+            <nazov>picas</nazov>        
+        </predmet>
+        
+        <nazov>BIS</nazov>
+        <predmet rocnik="Ing-2" >
+            <nazov>PocitacovaKriminalita</nazov>
+            <prednasajuci>
+                <meno>Hercule Poirot</meno>
+            </prednasajuci>
+        </predmet>
+        
+        <predmet>
+            <nazov>Statistika</nazov>
+            <prednasajuci>
+                <meno>Kolmogorov</meno>
+            </prednasajuci>
+        </predmet>
+    </zameranie>   
+</studium>
