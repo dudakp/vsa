@@ -45,11 +45,16 @@ public class Dbapp {
         }
         final Polozka polozka = new Polozka();
         em.getTransaction().begin();
-        polozka.setProdukt(produkt);
         polozka.setCena(cena);
+        polozka.setFaktura(faktura);
+        polozka.setProdukt(produkt);
+        
+//        em.persist(polozka);
+        
         faktura.getPolozky().add(polozka);
         faktura.setAktualizacia(new Date());
         em.persist(faktura);
-//        em.getTransaction().commit();
+        em.getTransaction().commit();
+        
     }
 }
