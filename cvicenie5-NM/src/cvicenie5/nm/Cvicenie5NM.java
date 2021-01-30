@@ -7,6 +7,7 @@ package cvicenie5.nm;
 
 import cvicenie5.nm.entities.Autor;
 import cvicenie5.nm.entities.Kniha;
+import cvicenie5.nm.entities.Vydavatelstvo;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -90,9 +91,23 @@ public class Cvicenie5NM {
     // najskor pustit samostatne create
 //               create();
 // az potom pustit samostatne read
-               read();
+//               read();
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("cvicenie5-NMPU");
+        EntityManager em = emf.createEntityManager();
         
-     
+        em.getTransaction().begin();
+        final Vydavatelstvo vydavatelstvo = new Vydavatelstvo();
+        vydavatelstvo.setPublikacia(new ArrayList<>());
+        final Kniha kniha = new Kniha();
+        kniha.setNazov("ano");
+        em.persist(kniha);
+        vydavatelstvo.getPublikacia().add(kniha);        
+        
+        em.persist(vydavatelstvo);
+        em.getTransaction().commit();
+        
+        final Vydavatelstvo find = em.find(Vydavatelstvo.class, 151L);
+        System.out.println(find);
     }
     
 

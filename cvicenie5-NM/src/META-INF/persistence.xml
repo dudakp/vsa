@@ -4,6 +4,7 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>cvicenie5.nm.entities.Autor</class>
     <class>cvicenie5.nm.entities.Kniha</class>
+    <class>cvicenie5.nm.entities.Vydavatelstvo</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/sample"/>
       <property name="javax.persistence.jdbc.user" value="app"/>
